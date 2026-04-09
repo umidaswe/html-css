@@ -1,18 +1,70 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
     <head>
-        <title> Forms Tapsirma</title>
+       <title>FORM</title>
     </head>
     <body>
+        <!--1 shi tapsirma-->
+      <form>
+        <label for="login">Login:</label> <br>
+        <input type="text" id="login">
 
-       
-        </form>
-        <input style="text" placeholder="Name">
-        <br><br>
-        <input type="text" placeholder="Email">
-       
-        </form>
+        <br> <br>
+
+        <label for="parol">Password:</label> <br>
+        <input type="password" id="parol">
+         
+        <button style="display: block; margin-top:5px">Kiriw</button> 
+          
+        
+        <!--2 shi tapsirma-->
+     
+         <input type="radio" name="status" id="male">
+         <label for="male">Male</label> <br>
+
+         <input type="radio" name="status" id="female">
+         <label for="female">Female</label> <br> 
+        
+      <!--3 shi tapsirma-->
+        <label for="name">Atiniz</label>
+        <input type="text" id="name">
+         <br> <br>
+        <label for="age">Jasiniz</label>
+        <input type="number" id="age">
+        <br> <br>
+        <label for="jinisiniz">Jinisiniz:</label>
+        <input type="radio" id="man">
+        <label for="man">Erkek</label>
+        
+        <input type="radio" id="woman">
+        <label for="woman">Hayal</label>
+           <br> <br>
+        <button>Dizimnen otiw</button>
+        <button>Tazalaw</button>
+
+          <!--4 shi tapsirma-->
+        <h1>Interests</h1>
+
+        <label for="art">Art</label>
+        <input type="checkbox" id="art">
+
+         <br> <br>
+
+        <label for="music">Music</label>
+        <input type="checkbox" id="music">
+
+        <br> <br>
+
+        <label for="read">Reading</label>
+        <input type="checkbox" id="read">
+
+        <br> <br>
+
+        <label for="pineapple on pizza">pineapple on pizza</label>
+        <input type="checkbox" id="pineapple on pizza">
+            
+     </form>
     </body>
-</html>
+    
 
-<hr>
+   
