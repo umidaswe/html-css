@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Forms Tapsirma</title>
+    </head>
+    <body>
+
+       
+        </form>
+        <input style="text" placeholder="Name">
+        <br><br>
+        <input type="text" placeholder="Email">
+       
+        </form>
+    </body>
+</html>
+
+<hr>
