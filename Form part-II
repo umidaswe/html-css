@@ -60,9 +60,7 @@
 
         <br> <br>
 
-        <label for="pineapple on pizza">pineapple on pizza</label>
-        <input type="checkbox" id="pineapple on pizza">
-            
+        
      </form>
     </body>
     
