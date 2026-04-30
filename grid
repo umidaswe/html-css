@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>grid tapsir.a</title>
+    </head>
+    <body>
+        
+        <div style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            <div style="background-color: lightgreen;">1fr</div>
+            <div style="background-color: lightcoral;">1fr</div>
+        </div>
+
+        
+      
+        <div style="
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            <div style="background-color: lightgreen;">250px</div>
+            <div style="background-color: lightcoral;">1fr</div>
+        </div>
+        <div style="
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 200px);
+            <div style="background-color: lightgreen;">200px</div>
+            <div style="background-color: lightcoral;">200px</div>
+            <div style="background-color: lightgreen;">200px</div>
+        </div>
+        
+    </body>
+</html>
