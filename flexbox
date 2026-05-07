@@ -38,3 +38,25 @@
 
     </body>
 </html>
+<hr>
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                display: flex;
+                flex-direction: row;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="box">
+            <div style="background-color: lightblue; flex:1">box1</div>
+            <div style="background-color: lightcoral; flex:3 ">box2</div>
+            <div style="background-color: lightgreen; flex: 1;">box3</div>
+           
+        </div>
+    </body>
+</html>
+
